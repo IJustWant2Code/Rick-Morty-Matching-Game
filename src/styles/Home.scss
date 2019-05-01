@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "rick-morty-font";
+    src: url('./fonts/get_schwifty__a_rick_and_morty_font_by_jonizaak-dajw4u8.ttf') format('truetype');
+}
+
+.homePage {
+    // background-image: url('https://i.pinimg.com/736x/d1/a1/d7/d1a1d72c6a4b11af18b78fac4eaf654d--top-tv-poster-print.jpg');
+    // background-position: center;
+    // background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        right: 0;
+
+    &__title {
+        font-family: 'rick-morty-font';
+        text-decoration: none;
+        color: #11c0ec;
+        text-shadow: 1px 3px 4px #01E413;
+        -webkit-text-stroke: 0.001em #073335      
+    }
+    .mainTitle {
+        font-size: 40px;
+        line-height: 58px;
+    }
+}

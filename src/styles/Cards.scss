@@ -1,7 +1,8 @@
 .card-container{
     display:flex;
-    width: 100%;
+    justify-content: center;
     flex-flow: row wrap;
+    margin: 50px 0px;
 }
 .card{
     margin:10px;

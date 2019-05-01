@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import characters from './data';
+import characters from '../data';
 import Card from './Card';
-import './Cards.scss';
+import '../styles/Cards.scss';
 export default class CardContainer extends Component {
     constructor(){
         super();
@@ -75,7 +75,6 @@ export default class CardContainer extends Component {
  
     return (
       <div >
-        <h1>Rick and Morty Matching Game</h1>
         <div className='card-container'>
             {this.state.characters.map((char,i)=>{ return <Card key={i} character={char} cardFlipper={this.cardFlipper} /> })}
         </div>

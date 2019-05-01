@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import startPage from './startPage';
-import CardContainer from './CardContainer';
+import startPage from './components/startPage';
+import CardContainer from './components/CardContainer';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 
 class App extends Component {
