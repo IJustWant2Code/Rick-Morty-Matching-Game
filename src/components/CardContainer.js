@@ -74,7 +74,7 @@ export default class CardContainer extends Component {
       
  
     return (
-      <div >
+      <div className="cardPage" >
         <div className='card-container'>
             {this.state.characters.map((char,i)=>{ return <Card key={i} character={char} cardFlipper={this.cardFlipper} /> })}
         </div>
